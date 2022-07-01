@@ -1,0 +1,20 @@
+{
+  "name": "cra-template-boilerplate-by-saqyeah",
+  "version": "1.0.0",
+  "keywords": [
+    "react",
+    "saqyeah",
+    "nimesh-bot",
+    "template"
+  ],
+  "description": "A boilerplate for react-app with necessary basic packages",
+  "main": "template.json",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
+}

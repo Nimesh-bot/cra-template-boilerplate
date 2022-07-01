@@ -1,0 +1,27 @@
+{
+    "package": {
+        "dependencies": {
+            "@testing-library/jest-dom": "^5.11.4",
+            "@testing-library/react": "^11.1.0",
+            "@testing-library/user-event": "^12.1.10",
+            "axios": "^0.27.2",        
+            "react-icons": "^4.4.0",
+            "react-router-dom": "^6.3.0",
+            "react-toastify": "^9.0.4",
+            "styled-components": "^5.3.5",
+            "web-vitals": "^1.0.1"
+        },
+        "scripts": {
+            "serve": "serve -s build",
+            "build-and-serve": "npm run build && npm run serve"
+        },
+        "eslintConfig": {
+            "extends": ["react-app", "react-app/jest"]
+        },
+        "devDependencies": {
+            "autoprefixer": "^10.4.7",
+            "postcss": "^8.4.13",
+            "tailwindcss": "^3.0.24"
+        }
+    }
+}
