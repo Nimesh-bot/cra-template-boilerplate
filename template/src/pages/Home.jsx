@@ -10,6 +10,13 @@ const Container = styled.section`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    row-gap: 2rem;
+
+    div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 `
 const Wrapper = styled.div`
     width: 300px;
@@ -30,8 +37,11 @@ const Home = () => {
         <Wrapper>
             <img src = { Coding } alt='Happy Coding' />
         </Wrapper>
-        <h1>HAPPY CODING.</h1>
-        <p>Thank you for choosing this template.</p>
+
+        <div>
+            <h1>HAPPY CODING.</h1>
+            <p>Thank you for choosing this template.</p>
+        </div>
 
         <Button text='Check my Github' clickEvent = {() => window.open('https://github.com/Nimesh-bot')}/>
     </Container>
